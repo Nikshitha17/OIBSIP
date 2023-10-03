@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,600;1,400&family=Lora:ital@0;1&family=Marcellus&family=Shadows+Into+Light&family=Zilla+Slab&display=swap');
+
+
+body {
+    font-family: 'Marcellus', sans-serif;
+    background: #ecf0f3;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ecf0f3;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+               -12px -12px 20px  #ffffff;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.add-task {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#new-task {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ecf0f3;
+    border-radius: 5px;
+    font-family: 'Marcellus',sans-serif;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+
+#add-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Marcellus',sans-serif;
+    font-weight: 600;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pending-tasks,
+.completed-tasks {
+    width: 48%;
+    padding: 10px;
+    margin-right: 4px;
+    border:none;
+    border-radius: 5px;
+    background-color: #ecf0f3;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffffff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 10px;
+    border:none;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ecf0f3;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffffff;
+}
+
+li.complete {
+    background-color: #d9f7be;
+    text-decoration: line-through;
+}
+
+button.delete-button,
+button.edit-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-family: 'Marcellus',sans-serif;
+}
+
+button.complete-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Marcellus',sans-serif;
+}
+
+
